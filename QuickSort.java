@@ -9,7 +9,7 @@ public class QuickSort {
         
         // loop only between the left and right 
         for (int j = left; j < right; j++) {
-            // swap
+            // swap if current element is smaller than pivot 
             if (arr[j] < pivot) {
                 i++;
                 int temp = arr[i];
